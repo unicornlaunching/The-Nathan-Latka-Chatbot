@@ -3,14 +3,14 @@ import streamlit as st
 from dotenv import load_dotenv
 from elevenlabs import generate, set_api_key
 from elevenlabs.api import Voices
-from langchain.vectorstores import Pinecone
-from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.chains import RetrievalQA
-from langchain.chat_models import ChatOpenAI
-from langchain.memory import ConversationBufferMemory
-from langchain.chains import ConversationalRetrievalChain
-from langchain.callbacks.base import BaseCallbackHandler
-from streamlit_player import st_player
+# from langchain.vectorstores import Pinecone
+# from langchain.embeddings.openai import OpenAIEmbeddings
+# from langchain.chains import RetrievalQA
+# from langchain.chat_models import ChatOpenAI
+# from langchain.memory import ConversationBufferMemory
+# from langchain.chains import ConversationalRetrievalChain
+# from langchain.callbacks.base import BaseCallbackHandler
+# from streamlit_player import st_player
 # from audio_recorder_streamlit import audio_recorder
 import re
 import uuid
